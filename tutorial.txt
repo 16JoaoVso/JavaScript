@@ -27,3 +27,75 @@ Number.isInteger (verifica se um número é inteiro ou não)
 
 Booleans: 
 Só admitem 2 valores: true or false
+
+Aula 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Operadores aritimédicos
+
+
+Comparadores: 
+Observação
+NÃO usar os comparadores == != (risco devido de tipagem dinâmica)
+
+------------------------------------------
+NPM(Node Packer Manager)
+Gerenciador de pacotes node (pacotes com funcionalidades que podem ser adicionadas ao node)
+Para gerenciar(Versão, atualizações etc.) os pacotes node, é necessário configurar o package.json
+
+json(JavaScript Object Notation)
+npm -version
+npm ls (listar pacotes instalados)
+npm i (instalar pacote)
+npm r (remover pacote)
+
+Observação: Os pacotes são instalados no projeto(raiz)
+
+Passo 1 - Criaro arquivo package.json
+npm init
+
+Repositório de pacotes
+https://www.npmjs.com
+
+Exercício:
+Criar no console JS um app para calcular a porcentagem, usando a regra de 3, conforme modelo:
+
+10% de 200 de = 20
+X       Y       Valor
+
+200----------------------------------100%
+               \ /
+                X
+               / \
+Valor--------------------------------10%
+
+Valor x 100 = 200 x 10
+
+valor x 100 = 2000 
+
+            2000
+valor = ------------
+            100
+
+          20
+Valor = -------
+           1
+
+Valor = 20
+
+Variáveis: 
+3. X, Y, Valor
+
+Entrada:
+valor = (x * y) / 100
+
+Saída: 
+Valor
+
+-------------------------------------------------------------------------------------------------------------
+Funções:
+Função é um bloco de código reutilizável 
+
+Função simples:
+
+funtion nome {
+    
+}

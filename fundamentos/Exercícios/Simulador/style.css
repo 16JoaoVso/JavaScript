@@ -1,0 +1,59 @@
+/**
+Folha de estilo - simulador
+@author João Victor Santos de Oliveira
+*/
+
+/** Layout */
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Cabeçalho */
+
+header h1 {
+    color: brown;
+    text-align: center;
+}
+
+/* Menu */
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+    overflow: hidden; /*Esconde a barra de rolagem*/
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: brown;
+    transition: all 0.4s;
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    background-color: red;
+    color: antiquewhite;
+    padding: 5px 0px;
+    text-align: center;
+}

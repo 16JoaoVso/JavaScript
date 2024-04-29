@@ -2,13 +2,19 @@
  * Fundamentos
  * Sintaxe básica da linguagem
  */
+
+// Importação de pacotes
+
+const colors = require('colors')
+
+
 // Sentenças
 console.log
-("Hello World")
+("Hello World".america)
 
 // Blocos
 {
-    console.log("Hello JavaScript")
+    console.log("Hello JavaScript".rainbow)
 }
 
 // Omissão de chaves em estruturas de console
@@ -22,3 +28,5 @@ if (media >= 5)
 for (let x = 1; x < 10; x++)
     console.log(x)
     
+
+
