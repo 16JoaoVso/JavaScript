@@ -96,6 +96,49 @@ Função é um bloco de código reutilizável
 
 Função simples:
 
-funtion nome {
+funtion none {
     
 }
+
+função cpm retorno
+function nome(){
+        return
+}
+ 
+funções anônimas
+const nome = function (){
+ 
+}
+let nome = function () {
+ 
+}
+ 
+funções em javaScript moderno podem ser simplificadas
+ 
+ 
+ 
+---------------------------------------------------------
+obs:
+typeof //verifica a tipagem dinâmica
+tipos primitivos (string, number, e boolean)
+function
+object
+---------------------------------------------------------
+POO - Programação Orientada a Objetos
+
+Pilares:
+- Abstração
+- Herança
+- Poliforismo
+- Encapsulamento
+
+Atenção !
+Toda classe modelo inicia com uma letra maiúscula
+
+
+new (!!!IMPORTANTE!!!) indica a criação de um objeto (independente da linguagem)
+this (!!!IMPORTANTE!!!) quando se refere a ele mesmo
+super (!!!IMPORTANTE!!!) indica o uso de atributos de classe pai
+
+Poliforismo é a mudança do comportamento de um metodo ja existente
+***Atenção: O Poliforismo não cria outro metodo, ele apenas modifica o comportamento de um metodo existente. Obrigatorio usar o mesmo metodo da classe pai.***
