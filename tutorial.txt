@@ -142,3 +142,26 @@ super (!!!IMPORTANTE!!!) indica o uso de atributos de classe pai
 
 Poliforismo é a mudança do comportamento de um metodo ja existente
 ***Atenção: O Poliforismo não cria outro metodo, ele apenas modifica o comportamento de um metodo existente. Obrigatorio usar o mesmo metodo da classe pai.***
+
+DICA:
+class Classe{} //cria uma classe modelo
+- O nome da Classe sempre deve começar com uma letra maiúscula
+- Classe (biologia)
+- objeto (new) (substantivo)
+- atributos (variáveis) (adjetivos)
+- ações (métodos/funções) (verbos)
+
+Encapsulamento
+1) proteger a variável criando um modificador privado (acesso exclusivo da classe ao qual pertence)
+2) Criar uma função para obter o conteúdo de variável(get)
+3) criar uma função para gravar um dado variável(set)
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+No JavaScript objetos podem ser criados sem uma classe modelo
+estruturas de dados usando objetos
+Exemplos:
+- package.json
+- coleção do banco de dados (MongoDB)
+
+ATENÇÃO !!!!!
+Tipos
