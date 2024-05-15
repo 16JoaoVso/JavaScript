@@ -3,9 +3,16 @@
  * @author João Victor Santos
  */
 
-    let total, porcentagem
+    let total = document.getElementById("total").value;
+    let desconto = document.getElementById("porcentagem").value;
+    let resultado;
+    let resultadoD;
+ 
+function Calcular() {
+    total = document.getElementById("total").value;
+    desconto = document.getElementById("porcentagem").value;
+    resultado = total  % desconto / 100;
+ 
+    document.getElementById("desconto").value = resultado;
 
-function calcular() {
-    total = Number(frmFlex.txtTotal.value)
-    porcentagem = Number(frmFlex.txtPorcentagem.value)
 }
